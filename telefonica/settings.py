@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'demo-python.wsgi.application'
+WSGI_APPLICATION = 'telefonica.wsgi.application'
 
 
 # Database
