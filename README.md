@@ -48,3 +48,11 @@ https://127.0.0.1/8000		(Falta dar de alta la base de datos. la base de datos po
 #	Si añadimos en models.py cualquier class(entidad) debemos ejecutar la migraciones
 (vmenvtelefonica) C:\Users\CONSULTANT\PycharmProjects\telefonica>python manage.py makemigrations
 (vmenvtelefonica) C:\Users\CONSULTANT\PycharmProjects\telefonica>python manage.py migrate
+
+#   Visualizar administracion
+http://localhost:8000/admin with:
+User: admin
+Pwd: Ni....11
+
+#   Visualziar aplicacion 1
+http://localhost:8000/admin/aplicacion1/
